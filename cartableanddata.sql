@@ -1,5 +1,5 @@
 drop table cars
-
+go
 create table Cars(
 	Id int not null identity(1,1) primary key,
 	Make nvarchar(30) not null,
@@ -11,7 +11,7 @@ create table Cars(
 );
 
 
-
+go
 Insert into Cars
 	(Make,Model,[Year],PurchasePrice)
 Values
